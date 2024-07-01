@@ -1,0 +1,192 @@
+
+.mc-block-grid.mc-elementor-post{
+    width: 30%;
+    /* background: red; */
+}
+.mc-block-grid.mc-post-no-thumb{
+    width:23.5% ;
+    padding:10px 30px;
+    border:1px solid #eee;
+}
+
+.mc-post-no-thumb .mc-postblock-content{
+    padding:0 ;
+}
+.mc-block-grid.mc-elementor-post .mc-postblock-excrpt{
+    margin:10px 0;
+    color:#787878;
+}
+
+.mc-block-grid.mc-elementor-post  .mc-postblock-title{
+    font-size: 20px;
+    line-height: 25px;
+}
+
+
+
+.mc-block-grid.mc-elementor-post  img{
+
+
+}
+
+.mc-block-grid.mc-elementor-post img ~ .mc-postblock-content{
+    padding-top:15px
+}
+
+.mc-elementor-post.mc-block-img-background .mc-postblock-meta {
+    margin-top: 15px;
+    margin-bottom: -60px;
+}
+
+.mc-elementor-post.mc-block-img-background:hover .mc-postblock-meta {
+    margin-top: 12px;
+    margin-bottom: -20px;
+}
+
+
+/* POst block no image */
+
+.mc-block-grid.mc-post-no-thumb{
+    width:23.5% ;
+    padding:30px;
+    border:1px solid #eee;
+}
+
+
+.mc-block-grid.mc-post-no-thumb .mc-postblock-date{
+    display:inline-block;
+    background:red;
+    padding:0px 9px;
+}
+.mc-block-grid.mc-post-no-thumb .mc-postblock-date a{
+    color:#fff ;
+    text-transform:uppercase;
+    font-size:12px;
+    font-weight:600;
+    lihe-heigth:1px !important;
+}
+.mc-block-grid.mc-post-no-thumb .mc-postblock-title{
+    display:block;
+    margin: 18px 0 !important;
+    font-size:19px;
+    line-height:24px
+}
+
+.mc-block-grid.mc-post-no-thumb .mc-postblock-meta {
+    padding:0 !important;
+    list-style:none;
+    font-style:italic;
+    font-weight:600;
+    color:#8d8d8d;
+
+
+}
+.mc-block-grid.mc-post-no-thumb .mc-postblock-meta ul{
+    padding:0;
+    margin:0;
+    list-style:none;
+}
+
+.mc-block-grid.mc-post-no-thumb .mc-postblock-meta a{
+    font-style:normal !important;
+    list-style:none;
+    margin:0 6px ;
+    color:#666666;
+}
+
+
+
+
+
+
+
+@media screen and (max-width:900px){
+    .mc-elementor-post{
+        width:48% !important
+    }
+}
+
+
+@media screen and (max-width:600px){
+    .mc-elementor-post{
+        width:95% !important;
+        margin:0  auto
+    }
+}
+
+
+
+
+
+@media screen and (max-width:900px){
+    .mc-elementor-post{
+        width:48% !important
+    }
+}
+
+
+@media screen and (max-width:600px){
+    .mc-elementor-post{
+        width:95% !important;
+        margin:0  auto
+    }
+}
+
+
+.swiper {
+    width: 100%;
+    min-height: 230px;
+}
+
+
+.swiper-slide{
+    display: block;
+}
+
+.swiper-slide article{
+    width:100%  !important
+}
+
+
+
+/* customer testimonial widget */
+.swiper-slide{
+}
+.mc-testimonial-container{
+    width:96%;
+    padding: 30px;
+    border: 1px solid #f0f0f0;
+}
+
+.mc-testimonial-container .testimonial-header{
+    display:flex;
+}
+
+.mc-testimonial-container .testimonial-header .th-slot-name{
+    display:flex;
+    flex-direction:column;
+    justify-content:center ;
+    padding-left:20px;
+}
+
+
+
+/* Swiper Base design */
+
+.swiper-pagination{
+    position: relative !important;
+}
+
+.swiper-pagination .swiper-pagination-bullet{
+    padding: 5px;
+}
+
+
+.swiper.mc-posts-widget{
+    overflow:hidden !important;
+}
+
+
+.post-grid-3 .mc-block-grid{
+    width: 31%;
+}

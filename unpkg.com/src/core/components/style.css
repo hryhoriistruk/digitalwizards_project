@@ -1,0 +1,99 @@
+/* Global Styles */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #337ab7;
+}
+
+a:hover {
+    color: #23527c;
+}
+
+/* HeaderComponent Styles */
+
+.header-component {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.header-component a {
+    color: #fff;
+}
+
+/* FeaturesSectionComponent Styles */
+
+.features-section-component {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.features-section-component li {
+    margin: 20px;
+    list-style: none;
+}
+
+.features-section-component a {
+    display: block;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.features-section-component a:hover {
+    background-color: #f0f0f0;
+}
+
+/* HeroSectionComponent Styles */
+
+.hero-section-component {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+}
+
+.hero-section-component h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.hero-section-component ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.hero-section-component li {
+    margin: 20px;
+}
+
+.hero-section-component a {
+    text-decoration: none;
+    color: #337ab7;
+}
+
+.hero-section-component a:hover {
+    color: #23527c;
+}
+
+.hero-section-component i {
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+.hero-section-component p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
